@@ -6,7 +6,7 @@ from fastapi import FastAPI, File, HTTPException, UploadFile
 from typing import Any, Optional
 
 from pydantic import BaseModel
-from filters import apply_filters
+from backend.filters import apply_filters
 
 from fastapi.responses import Response
 
