@@ -7,3 +7,7 @@ venv/
 *.py[cod]
 uploads/
 backend/uploads/
+
+# Frontend build output
+frontend/dist/
+frontend/coverage/
